@@ -1,0 +1,17 @@
+{
+  "name": "angular2-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "tsc": "tsc -p src -w",
+    "start": "browser-sync start --server --files \"src/**/*.js, src/**/*.html, src/**/*.css\" --startPath \"src\""
+  },
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.44",
+    "systemjs": "^0.19.5"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "typescript": "^1.6.2"
+  }
+}
